@@ -86,7 +86,7 @@ class AsseticDumper extends Command
 
             $this->ensureDirectoryExists($targetPath);
 
-            $this->output("<comment>Copy </comment>$source<comment> into </comment>$targetPath");
+            $this->output("<comment>Copy </comment>$source<comment> into </comment>$targetPath", OutputInterface::VERBOSITY_VERBOSE);
             $this->dumpDirectory($source, $targetPath);
         }
     }
