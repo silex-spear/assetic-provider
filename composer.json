@@ -1,0 +1,24 @@
+{
+    "name": "silex-spear/assetic-provider",
+    "description": "A Silex provider for Assetic",
+    "type": "library",
+    "authors": [{
+        "name": "Claude LE BRIS",
+        "email": "claude.lebris@gmail.com"
+    }],
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": ">=5.4",
+        "silex/silex": "~1.2",
+        "kriswallsmith/assetic": "~1.2",
+        "puzzle/configuration": "~1.7",
+        "mheap/silex-assetic": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spear\\": "src/"
+        }
+    }
+}
