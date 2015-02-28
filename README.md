@@ -1,6 +1,6 @@
 # Assetic provider
 
-A silex provider for Assetic using Niktux's karma (http://github.com/Niktux/karma)
+A silex provider for Assetic using puzzle/configuration (https://github.com/Niktux/puzzle-configuration)
 
 ## Installation
 
@@ -17,3 +17,7 @@ or
 ```bash
 composer require silex-spear/assetic-provider
 ```
+
+### What is the `config/assetic.yml-dist.example` file ?
+
+It's a configuration example file for the configuration file hydrator karma (https://github.com/Niktux/karma)
