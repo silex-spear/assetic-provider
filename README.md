@@ -2,6 +2,8 @@
 
 A silex provider for Assetic using puzzle/configuration (https://github.com/Niktux/puzzle-configuration)
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/68e8705d-946b-4da5-a2d9-61a1c7166085/big.png)](https://insight.sensiolabs.com/projects/68e8705d-946b-4da5-a2d9-61a1c7166085) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/silex-spear/assetic-provider/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/silex-spear/assetic-provider/?branch=master)
+
 ## Installation
 
 ```
